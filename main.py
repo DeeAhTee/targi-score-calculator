@@ -16,7 +16,7 @@ def calculate_score() -> None:
     """Calculate the score for the given player Class."""
     print("Calculating score...")  # noqa: T201
     # Implementation here
-    print("Score calculation completed.") # noqa: T201
+    print("Score calculation completed.")  # noqa: T201
 
 
 def display_score_history() -> None:
@@ -61,6 +61,7 @@ def main() -> None:
                     break
         else:
             print("\nInvalid choice. Please try again.")  # noqa: T201
+
 
 if __name__ == "__main__":
     main()
