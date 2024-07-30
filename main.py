@@ -35,8 +35,7 @@ def display_menu(menu_list: list[str]) -> None:
 
 def get_user_choice(menu_list: list[str]) -> str:
     """Menu choice."""
-    choice = int(input(f"\nEnter your choice (1-{len(menu_list)}): "))
-    return str(choice)
+    return input(f"\nEnter your choice (1-{len(menu_list)}): ")
 
 
 def main() -> None:
