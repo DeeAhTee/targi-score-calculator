@@ -61,7 +61,3 @@ def main() -> None:
                     break
         else:
             print("\nInvalid choice. Please try again.")  # noqa: T201
-
-
-if __name__ == "__main__":
-    main()
