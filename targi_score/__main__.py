@@ -9,21 +9,9 @@ from __future__ import annotations
 
 import os
 
-from welcome_message import welcome
-
-
-def calculate_score() -> None:
-    """Calculate the score for the given player Class."""
-    print("Calculating score...")  # noqa: T201
-    # Implementation here
-    print("Score calculation completed.")  # noqa: T201
-
-
-def display_score_history() -> None:
-    """Display the saved score history."""
-    print("Displaying score history...")  # noqa: T201
-    # Implementation here
-    print("Score history displayed.")  # noqa: T201
+from .calculator import calculate_score
+from .history import display_score_history
+from .message import welcome
 
 
 def display_menu(menu_list: list[str]) -> None:
@@ -61,3 +49,5 @@ def main() -> None:
                     break
         else:
             print("\nInvalid choice. Please try again.")  # noqa: T201
+
+main()
